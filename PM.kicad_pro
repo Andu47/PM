@@ -477,7 +477,7 @@
       "similar_labels": "warning",
       "similar_power": "warning",
       "simulation_model_issue": "ignore",
-      "single_global_label": "ignore",
+      "single_global_label": "warning",
       "stacked_pin_name": "warning",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
@@ -677,7 +677,7 @@
         "uuid": "20a4db11-048c-427f-a762-a2ae71ce4c29"
       }
     ],
-    "used_designators": "#PWR1-22,C1,R1,SW1,U1-7,Y1",
+    "used_designators": "#PWR1-22,#PWR53-68,C1,C9-12,R1,SW1,U1-11,U_RAM_E1,U_RAM_O1,U_ROM_E1,U_ROM_O1,Y1",
     "variants": []
   },
   "sheets": [

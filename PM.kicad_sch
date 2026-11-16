@@ -272,7 +272,7 @@
 		)
 		(uuid "ea2f0b48-6239-4822-b5d8-f96423ba5d3b")
 		(property "Sheetname" "CPU & clock"
-			(at 25.4 50.1 0)
+			(at 25.4 50.0884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -283,7 +283,7 @@
 			)
 		)
 		(property "Sheetfile" "cpu_clock.kicad_sch"
-			(at 25.4 76.9 0)
+			(at 25.4 76.7846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

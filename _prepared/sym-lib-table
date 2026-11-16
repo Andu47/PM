@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "PM")(type "KiCad")(uri "${KIPRJMOD}/PM.kicad_sym")(options "")(descr "8251A USART (not in KiCad standard libraries)"))
+)

@@ -1,4 +1,0 @@
-(sym_lib_table
-	(version 7)
-	(lib (name "PM_8086")(type "KiCad")(uri "${KIPRJMOD}/PM_8086.kicad_sym")(options "")(descr "8086, 8284A, 8251A, 8255A for the PM project"))
-)

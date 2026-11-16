@@ -1,0 +1,33 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "8b08c1ed-cdb7-4ace-af70-00f97fc113a1")
+	(paper "A4")
+	(title_block
+		(title "Parallel interface: 8255A, 4x3 keypad, 16x2 LCD")
+		(date "2026-11-13")
+		(rev "0.1")
+		(company "UPT - Facultatea de Automatica si Calculatoare")
+		(comment 1 "Autor: ${AUTOR}")
+		(comment 2 "Proiectarea cu Microprocesoare - Microsistem cu 8086")
+		(comment 3 "An universitar 2026-2027")
+	)
+	(lib_symbols)
+	(text "TODO\n- 8255A: D0-D7, CS, A1-A0 = A2-A1, RD, WR, RESET\n- Port C: keypad 4x3 (PC0-3 rows out, PC4-6 columns in)\n- Port A + PB0-2: LCD HD44780 (confirm interface with instructor)"
+		(exclude_from_sim no)
+		(at 20.32 25.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "67d0333c-9ac4-431c-bdee-22adae40570e")
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

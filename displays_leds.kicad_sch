@@ -1,0 +1,33 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "38f71145-cbe9-40ca-a365-890969494803")
+	(paper "A4")
+	(title_block
+		(title "14 LEDs and 6-digit static 7-segment display")
+		(date "2026-11-13")
+		(rev "0.1")
+		(company "UPT - Facultatea de Automatica si Calculatoare")
+		(comment 1 "Autor: ${AUTOR}")
+		(comment 2 "Proiectarea cu Microprocesoare - Microsistem cu 8086")
+		(comment 3 "An universitar 2026-2027")
+	)
+	(lib_symbols)
+	(text "TODO\n- 14 LEDs: 2x 74LS373/374 latches at own I/O addresses\n- 7-segment: 6 static latches (one per digit) at own I/O addresses"
+		(exclude_from_sim no)
+		(at 20.32 25.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "eb9756af-ceaa-4bc3-a2cf-40dedd678a1f")
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

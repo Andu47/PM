@@ -1,0 +1,310 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "20a4db11-048c-427f-a762-a2ae71ce4c29")
+	(paper "A4")
+	(title_block
+		(title "8086 microsystem - overview")
+		(date "2026-11-13")
+		(rev "0.1")
+		(company "UPT - Facultatea de Automatica si Calculatoare")
+		(comment 1 "Autor: ${AUTOR}")
+		(comment 2 "Proiectarea cu Microprocesoare - Microsistem cu 8086")
+		(comment 3 "An universitar 2026-2027")
+	)
+	(lib_symbols)
+	(text "Microsistem with 8086 - hierarchy overview\nEach block below is a sub-sheet; add sheet pins / hierarchical labels for the shared buses (A0..A19, D0..D15, control signals)."
+		(exclude_from_sim no)
+		(at 20.32 25.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "b962c2a5-bd2e-418a-8ecf-5e8fe7c41fbb")
+	)
+	(sheet
+		(at 110.4 50.8)
+		(size 63.5 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "0bd0d907-96ed-4384-9ab0-be18f5a204ca")
+		(property "Sheetname" "Memory"
+			(at 110.4 50.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "memory.kicad_sch"
+			(at 110.4 76.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PM"
+				(path "/20a4db11-048c-427f-a762-a2ae71ce4c29"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 110.4 101.6)
+		(size 63.5 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "2059ad1c-4873-4d32-a3b2-3b6f366fcfeb")
+		(property "Sheetname" "Parallel & peripherals"
+			(at 110.4 100.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "parallel_8255.kicad_sch"
+			(at 110.4 127.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PM"
+				(path "/20a4db11-048c-427f-a762-a2ae71ce4c29"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 195.4 50.8)
+		(size 63.5 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "94b7176d-364e-4dbb-be67-3474e7435eb0")
+		(property "Sheetname" "I/O decoding"
+			(at 195.4 50.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "io_decoding.kicad_sch"
+			(at 195.4 76.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PM"
+				(path "/20a4db11-048c-427f-a762-a2ae71ce4c29"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 101.6)
+		(size 63.5 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "be6d37a6-8026-4fcd-99f8-9097a5163431")
+		(property "Sheetname" "Serial 8251"
+			(at 25.4 100.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "serial_8251.kicad_sch"
+			(at 25.4 127.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PM"
+				(path "/20a4db11-048c-427f-a762-a2ae71ce4c29"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 195.4 101.6)
+		(size 63.5 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "d55a929b-795a-4990-931a-2b7cad36ee50")
+		(property "Sheetname" "Displays & LEDs"
+			(at 195.4 100.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "displays_leds.kicad_sch"
+			(at 195.4 127.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PM"
+				(path "/20a4db11-048c-427f-a762-a2ae71ce4c29"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 50.8)
+		(size 63.5 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "ea2f0b48-6239-4822-b5d8-f96423ba5d3b")
+		(property "Sheetname" "CPU & clock"
+			(at 25.4 50.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cpu_clock.kicad_sch"
+			(at 25.4 76.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PM"
+				(path "/20a4db11-048c-427f-a762-a2ae71ce4c29"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

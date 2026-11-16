@@ -1,0 +1,33 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "c5461597-a595-4bfe-b5aa-de88f472ffcf")
+	(paper "A3")
+	(title_block
+		(title "Memory: 2x 27C512 (E0000h-FFFFFh) + 2x 62256 (00000h-0FFFFh)")
+		(date "2026-11-13")
+		(rev "0.1")
+		(company "UPT - Facultatea de Automatica si Calculatoare")
+		(comment 1 "Autor: ${AUTOR}")
+		(comment 2 "Proiectarea cu Microprocesoare - Microsistem cu 8086")
+		(comment 3 "An universitar 2026-2027")
+	)
+	(lib_symbols)
+	(text "TODO\n- EPROM even/odd bank: A16-A1 -> A15-A0 of each chip, D0-D7 / D8-D15\n- SRAM even bank CS includes A0, odd bank CS includes BHE\n- Chip selects come from 'I/O decoding' sheet (EPROM: A19-A17 = 111; SRAM: A19-A16 = 0000, M/IO = 1)\n- Physical build: W27C512 in DIP sockets"
+		(exclude_from_sim no)
+		(at 20.32 25.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "0a02a47b-0714-4f81-b0bb-cbe3ffc1bdfb")
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

@@ -1,0 +1,33 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "f2e0e313-94d1-4fa5-a892-22f45846e896")
+	(paper "A4")
+	(title_block
+		(title "Serial interface: 8251A + MAX232")
+		(date "2026-11-13")
+		(rev "0.1")
+		(company "UPT - Facultatea de Automatica si Calculatoare")
+		(comment 1 "Autor: ${AUTOR}")
+		(comment 2 "Proiectarea cu Microprocesoare - Microsistem cu 8086")
+		(comment 3 "An universitar 2026-2027")
+	)
+	(lib_symbols)
+	(text "TODO\n- 8251A: D0-D7, CS, C/D = A1, RD, WR, RESET, CLK\n- Baud clock on TxC / RxC\n- MAX232 + DB9 connector"
+		(exclude_from_sim no)
+		(at 20.32 25.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "5878a4fa-953c-46f4-9fdf-f1e71a746004")
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

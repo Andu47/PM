@@ -1,0 +1,33 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "e492139d-e0c5-4bd0-abdb-2d0c9738fcbd")
+	(paper "A3")
+	(title_block
+		(title "Full address decoding: memory and I/O chip selects, switches S1 / S2")
+		(date "2026-11-13")
+		(rev "0.1")
+		(company "UPT - Facultatea de Automatica si Calculatoare")
+		(comment 1 "Autor: ${AUTOR}")
+		(comment 2 "Proiectarea cu Microprocesoare - Microsistem cu 8086")
+		(comment 3 "An universitar 2026-2027")
+	)
+	(lib_symbols)
+	(text "TODO\n- CS_EPROM_even/odd, CS_SRAM_even/odd (memory, M/IO = 1)\n- CS_8251: 05D0h-05D2h / 07D0h-07D2h, A1 -> C/D, A9 = S1\n- CS_8255: 0A50h-0A56h / 0B50h-0B56h, A2-A1 -> A1-A0, A8 = S2\n- Compare A15-A2 (and A0 = 0) with 74LS688; M/IO = 0 for I/O\n- LED and 7-segment latch selects (addresses still to be fixed)"
+		(exclude_from_sim no)
+		(at 20.32 25.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "26b7d424-870a-4779-9cc4-fbcc799004d6")
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
